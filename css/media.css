@@ -1,0 +1,268 @@
+@media screen and (min-width: 375px) {
+    .intro-title {
+        font-size: 1.8rem;
+        margin-bottom: 2px;
+    }
+    .intro-content {
+        margin-top: 110px;
+    }
+    .catalog-item-img {
+        height: 220px;
+    }
+}
+@media screen and (min-width: 414px) {
+    .intro-title {
+        font-size: 2rem;
+        margin-bottom: 4px;
+    }
+    .intro-subtitle {
+        font-size: 1.2rem;
+    }
+    .catalog-item-img {
+        height: 240px;
+    }
+    .footer-contacts-item {
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-height: 725px) {
+    .intro-content {
+        margin-top: 170px;
+    }
+}
+@media screen and (min-height: 725px) {
+    .intro-content {
+        margin-top: 170px;
+    }
+}
+@media screen and (min-height: 780px) {
+    .intro-content {
+        margin-top: 220px;
+    }
+}
+@media screen and (min-width: 460px) {
+    .services-item-img {
+        height: 270px;
+    }
+    .catalog-item-img {
+        height: 260px;
+    }
+}
+@media screen and (min-width: 490px) {
+    .catalog-item-img {
+        height: 270px;
+    }
+}
+@media screen and (min-width: 520px) {
+    .catalog-item-img {
+        height: 290px;
+    }
+    .intro-title {
+        font-size: 2.4rem;
+        line-height: normal;
+        margin-bottom: 6px;
+    }
+    .intro-subtitle {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 576px) {
+    .intro-title {
+        font-size: 2.6rem;
+        line-height: normal;
+        margin-bottom: 6px;
+    }
+    .section-title-def {
+        font-size: 1.8rem;
+    }
+    .intro-link-email {
+        font-size: 1.25rem;
+    }
+    .intro-link-phone {
+        font-size: 1.25rem;
+    }
+    .section-text-def {
+        font-size: 0.95rem;
+    }
+    .services-item-title {
+        font-size: 1.3rem;
+    }
+    .services-item-text {
+        font-size: 0.95rem;
+    }
+    .goods-title {
+        font-size: 1.6rem;
+    }
+    .goods-text {
+        font-size: 0.95rem;
+    }
+    .catalog-item + .catalog-item {
+        margin-top: 0;
+    }
+    .catalog-list {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+    .footer-contacts-list {
+        max-width: 263px;
+        margin-bottom: 0;
+    }
+    .footer-contacts{
+        width: 50%;
+    }
+    .footer-made {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 768px) { 
+    .intro-content {
+        padding-left: 60px;
+    }
+    .section-title-def {
+        text-align: center;
+        max-width: 750px;
+        font-size: 2.2rem;
+    }
+    .section-text-def {
+        text-align: center;
+        max-width: 750px;
+        font-size: 1rem;
+    }
+    .header-container {
+        justify-content: space-between;
+    }
+    .header-links {
+        display: flex;
+        gap: 20px;
+    }
+    .intro {
+        height: 500px;
+        background-image: url(../img/intro/intro_bg_xxl.jpg);
+    }
+    .intro-content{
+        margin-top: 140px;
+        max-width: 920px;
+    }
+    .intro-title {
+        text-align: left;
+    }
+    .intro-subtitle {
+        text-align: left;
+    }
+    .intro-links {
+        display: none;
+    }
+    .services-item {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+    .services-item-text {
+        font-size: 1rem;
+    }
+    .services-item-img {
+        margin: auto 0;
+        width: 50%;
+    }
+    .services-item-content{
+        max-width: 50%;
+    }
+    .footer-made-img {
+        max-width: 263px;
+    }
+    .goods-container {
+        max-width: 945px;
+    }
+    .goods-title {
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .goods-text {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .catalog-item-title {
+        font-size: 1.3rem;
+    }
+    .catalog-item-text {
+        font-size: 1rem;
+    }
+    .footer-contacts-item {
+        font-size: 1rem;
+    }
+    .footer-made-item {
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    .header-link-email {
+        font-size: 1.5625rem;
+    }
+    .header-link-phone {
+        font-size: 1.5625rem;
+    }
+    .intro {
+        height: 860px;
+    }
+    .intro-content {
+        margin-top: 266px;
+        padding-left: 0;
+    }
+    .intro-title {
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+    .intro-subtitle {
+        font-size: 2.5rem;
+    }
+    .about{
+        margin: 80px 0;
+    }
+    .section-title-def {
+        font-size: 3.125rem;
+        margin-bottom: 25px;
+    }
+    .services {
+        margin-bottom: 90px;
+    }
+    .services-item-title {
+        font-size: 2.1875rem;
+        margin-bottom: 20px;
+    }
+    .services-item + .services-item {
+        margin-top: 42px;
+    }
+    .goods {
+        padding: 36px 0 50px;
+        margin-bottom: 70px;
+    }
+    .catalog {
+        margin-bottom: 80px;
+    }
+    .catalog-item-img {
+        height: 280px;
+        margin-bottom: 30px;
+    }
+    .catalog-item-title {
+        font-size: 1.25rem;
+        margin-bottom: 12px;
+    }
+    .catalog-list {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .production {
+        margin-bottom: 80px;
+    }
+    .footer-title-def {
+        font-size: 1.875rem;
+        margin-bottom: 16px;
+    }
+}
