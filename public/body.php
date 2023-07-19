@@ -2,7 +2,7 @@
     <!--* Header -->
     <header class="header">
         <div class="container header-container flex">
-                <a href="index.html" class="header-logo-link">
+                <a href="../index.php" class="header-logo-link">
                     <img src="./img/svg/peleduyskaya_logo_xs.svg" alt="«Пеледуйская» вода" class="logo_img">
                 </a>
                 <nav class="header-nav">
@@ -28,7 +28,7 @@
         <div class="intro">
             <div class="container intro-container flex">
                 <div class="intro-content">
-                    <h1 class="intro-title h1-def-title text-def-lt">Доставка питьевой<br>воды «Пеледуйская»</h1>
+                    <h1 class="intro-title h1-def-title text-def-lt">Доставка питьевой <br>воды «Пеледуйская»</h1>
                     <div class="intro-subtitle">Пора пить чистую воду</div>
                 </div>
                 <div class="intro-links flex">
@@ -135,6 +135,41 @@
                 <p class="production-text text-def">Очистка воды – это сложный и многоступенчатый процесс, который включает в себя различные технологии и методы. Важным шагом в процессе очистки воды является проведение стерильных операций. Технологические мероприятия, такие как ультрафильтрация, дистилляция и обратный осмос, обеспечивают полное удаление микроорганизмов и загрязнений из воды. Сертифицированное производство в области очистки воды гарантирует соответствие всех процессов и стандартов, установленных регулирующими органами. Это позволяет обеспечить высокое качество очищенной воды. Благодаря технологическим мероприятиям и сертифицированному производству, мы можем быть уверены в качестве воды, которую мы производим.</p>
             </div>
         </section>
+        <!--* Advertising -->
+        <section class="apartments">
+            <div class="container apartments-container">
+                <div class="apartments-head flex">
+                    <h2 class="apartments-title">Квартиры посуточно</h2>
+                    <div class="apartments-number flex">
+                        <a href="tel:+79086472689" class="apartments-number-img">
+                            <img src="./img/svg/phone-24p.svg" alt="+79086472689">
+                        </a>
+                        <a href="tel:+79086472689" class="apartments-number-text">+79086472689</a>
+                    </div>
+                </div>
+                <p class="apartments-text text-def-sm text-def-lt">Мы предлагаем удобный и комфортабельный вариант размещения в самом сердце Иркутска. Наша главная цель - обеспечить вам приятный и беззаботный отдых или деловую поездку. Мы предлагаем широкий выбор квартир, которые соответствуют самым высоким стандартам качества. Ключевое преимущество нашей услуги - низкие цены. Мы понимаем, что каждый клиент имеет свой бюджет, поэтому мы стараемся предложить наиболее доступные цены на аренду. У нас вы также можете получить отчётные документы, что делает нашу услугу идеальным вариантом для командировочных и бизнес-путешественников. Мы гарантируем полное соблюдение всех требований и правил, чтобы ваше пребывание было максимально комфортным и удобным. Не упустите возможность пожить в самом центре Иркутска по доступным ценам! Забронируйте квартиру прямо сейчас и наслаждайтесь комфортом и гостеприимством наших апартаментов.</p>
+                <ul class="apartments-advantages-list flex">
+                    <li class="apartments-advantages-item flex">
+                        <div class="apartments-advantages-item-img">
+                            <img src="./img/svg/star.svg" alt="Низкие цены">
+                        </div>
+                        <span class="apartments-advantages-item-text">Низкие цены</span>
+                    </li>
+                    <li class="apartments-advantages-item flex">
+                        <div class="apartments-advantages-item-img">
+                            <img src="./img/svg/star.svg" alt="Центр Иркутска">
+                        </div>
+                        <span class="apartments-advantages-item-text">Центр Иркутска</span>
+                    </li>
+                    <li class="apartments-advantages-item flex">
+                        <div class="apartments-advantages-item-img">
+                            <img src="./img/svg/star.svg" alt="Отчётные документы">
+                        </div>
+                        <span class="apartments-advantages-item-text">Отчётные документы</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer class="footer" id="contacts">
         <div class="container footer-container">
@@ -150,6 +185,7 @@
                 <div class="footer-made-content">
                     <h3 class="footer-made-title footer-title-def">Произведено</h3>
                     <div class="footer-made-item">ИП Монахов Д.Н.</div>
+                    <div class="footer-made-item">ЕАЭС N RU Д-RU.РА02.В.06655/23</div>
                 </div>
                 <div class="footer-made-img">
                     <img src="./img/svg/quality_xs.svg" alt="Соответствие качества">
@@ -157,5 +193,13 @@
             </div>
         </div>
     </footer>
+    <!--* Author -->
+    <div class="link-to-the-author">
+        <div class="container">
+            <address class="link-to-the-author-text">
+            Design and development by <a href="https://vk.com/p.rebrov" target="_blank">Pavel Rebrov</a>
+            </address>
+        </div>
+    </div>
     <script src="./js/main.js"></script>
 </body>

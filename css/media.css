@@ -3,6 +3,11 @@
         height: 220px;
     }
 }
+@media screen and (min-width: 340px) {
+    .intro-title br {
+        display: block;
+    }
+}
 @media screen and (min-width: 414px) {
     .intro-title {
         margin-bottom: 7px;
@@ -78,6 +83,11 @@
         gap: 30px;
         grid-template-columns: repeat(2, 1fr);
     }
+    .apartments-head {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
     .footer-container {
         display: flex;
         flex-direction: row-reverse;
@@ -93,6 +103,9 @@
     .footer-made {
         width: 50%;
     }
+    .link-to-the-author-text {
+        text-align: right;
+    }
 }
 @media screen and (min-width: 740px) {
     .h1-def-title{
@@ -100,6 +113,11 @@
     }
     .intro-subtitle {
         font-size: 1.45rem;
+    }
+    .apartments-advantages-list {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media screen and (min-width: 768px) {
@@ -186,6 +204,12 @@
         max-width: 750px;
         text-align: center;
     }
+    .apartments-title {
+        font-size: 2.2rem;
+    }
+    .apartments-advantages-item-text {
+        font-size: 1.3rem;
+    }
     .footer-contacts-item {
         font-size: 1rem;
     }
@@ -246,6 +270,28 @@
     }
     .production {
         margin-bottom: 80px;
+    }
+    .apartments {
+        padding: 36px 0 50px;
+    }
+    .apartments-head {
+        margin-bottom: 20px;
+    }
+    .apartments-number {
+        gap: 20px;
+    }
+    .apartments-number-img {
+        width: 40px;
+        height: 40px;
+    }
+    .apartments-number-text {
+        font-size: 2.375rem;
+    }
+    .apartments-text {
+        margin-bottom: 30px;
+    }
+    .apartments-advantages-list {
+        gap: 60px;
     }
     .footer-title-def {
         font-size: 1.875rem;

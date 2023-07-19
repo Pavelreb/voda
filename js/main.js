@@ -23,8 +23,6 @@ navLinks.forEach((e) => {
     });
 });
 
-console.log(navLinks);
-
 // * Scroll to anchors
 (function () {
 

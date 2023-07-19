@@ -196,6 +196,8 @@ body {
     z-index: 1;
 }
 .intro-container{
+    position: relative;
+    z-index: 2;
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
@@ -208,6 +210,9 @@ body {
 .intro-title {
     text-align: center;
     margin-bottom: 5px;
+}
+.intro-title br {
+    display: none;
 }
 .intro-subtitle {
     color: #fff;
@@ -349,6 +354,91 @@ body {
     margin-bottom: 6px;
 }
 
+/** Apartments */
+.apartments {
+    position: relative;
+    width: 100%;
+    padding: 24px 0;
+    background-image: url(../img/advertising/01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.apartments::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+}
+.apartments-container {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.apartments-head {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.apartments-title {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.apartments-number {
+    align-items: center;
+    cursor: pointer;
+    gap: 8px;
+}
+.apartments-number-img {
+    width: 30px;
+    height: 30px;
+}
+.apartments-number-text {
+    display: block;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.apartments-text {
+    color: #FFF;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+.apartments-advantages-list {
+    flex-direction: column;
+    gap: 14px;
+}
+.apartments-advantages-item {
+    align-items: center;
+    gap: 15px;
+}
+.apartments-advantages-item-img {
+    width: 24px;
+    height: 24px;
+}
+.apartments-advantages-item-text {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 /** FOOTER */
 .footer {
     width: 100%;
@@ -399,4 +489,23 @@ body {
     font-weight: 500;
     line-height: normal;
     padding-bottom: 25px;
+}
+/** AUTHOR */
+.link-to-the-author {
+    width: 100%;
+    padding: 12px 0;
+    background: #013a53;
+}
+.link-to-the-author-text {
+    color: #fff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link-to-the-author-text a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
