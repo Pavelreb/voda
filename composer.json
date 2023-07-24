@@ -1,0 +1,9 @@
+{
+    "name": "pavel/voda",
+    "autoload": {
+        "psr-4": {
+            "Pavel\\Voda\\": "src/"
+        }
+    },
+    "require": {}
+}

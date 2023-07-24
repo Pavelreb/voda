@@ -3,7 +3,7 @@
     <header class="header">
         <div class="container header-container flex">
                 <a href="../index.php" class="header-logo-link">
-                    <img src="./img/svg/peleduyskaya_logo_xs.svg" alt="«Пеледуйская» вода" class="logo_img">
+                    <img src="./public/img/svg/peleduyskaya_logo_xs.svg" alt="«Пеледуйская» вода" class="logo_img">
                 </a>
                 <nav class="header-nav">
                     <ul class="header-nav-links">
@@ -52,7 +52,7 @@
                 <ul class="services-list">
                     <li class="services-item">
                         <div class="services-item-img">
-                            <img src="./img/services/services_1.jpg" alt="Доставка питьевой воды на дом">
+                            <img src="./public/img/services/services_1.jpg" alt="Доставка питьевой воды на дом">
                         </div>
                         <div class="services-item-content">
                             <h3 class="services-item-title">Доставка на дом</h3>
@@ -61,7 +61,7 @@
                     </li>
                     <li class="services-item">
                         <div class="services-item-img">
-                            <img src="./img/services/services_2.jpg" alt="Доставка питьевой воды на месторождение">
+                            <img src="./public/img/services/services_2.jpg" alt="Доставка питьевой воды на месторождение">
                         </div>
                         <div class="services-item-content">
                             <h3 class="services-item-title">Доставка на месторождение</h3>
@@ -85,42 +85,42 @@
                 <ul class="catalog-list">
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_1.jpg" alt="Механическая помпа">
+                            <img src="./public/img/catalog/item_1.jpg" alt="Механическая помпа">
                         </div>
                         <h3 class="catalog-item-title">Механическая помпа</h3>
                         <p class="catalog-item-text text-def">Удобное и надежное решение для разлива воды. Оснащенная механической помпой, бутыль позволяет легко и быстро набрать необходимое количество воды. Благодаря компактным размерам и удобной конструкции, механическая помпа надевается непосредственно на бутыль, что обеспечивает максимальную удобство в использовании.</p>
                     </li>
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_2.jpg" alt="Настольный раздатчик воды">
+                            <img src="./public/img/catalog/item_2.jpg" alt="Настольный раздатчик воды">
                         </div>
                         <h3 class="catalog-item-title">Настольный раздатчик воды</h3>
                         <p class="catalog-item-text text-def">Удобное и компактное устройство, предназначенное для обеспечения доступа к чистой питьевой воде. Одной из главных особенностей этого продукта является его компактность. Настольный раздатчик занимает минимум места и легко помещается на любой поверхности. Простота использования - еще одно преимущество настольного раздатчика воды. Его конструкция не требует сложной установки и подключения к электросети.</p>
                     </li>
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_3.jpg" alt="Подставка угловая с краном">
+                            <img src="./public/img/catalog/item_3.jpg" alt="Подставка угловая с краном">
                         </div>
                         <h3 class="catalog-item-title">Подставка угловая с краном</h3>
                         <p class="catalog-item-text text-def">Функциональный аксессуар, который облегчает процесс использования и дозирования воды. Краник-пробка для бутылей надежно закрывает горлышко и обеспечивает герметичность. Подставка прекрасно подходит для домашнего использования, офиса или на отдыхе. Благодаря своей простоте в использовании, она станет незаменимым помощником для всех, кто ценит удобство и экономию ресурсов.</p>
                     </li>
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_4.jpg" alt="Кулер настольный с нагревом">
+                            <img src="./public/img/catalog/item_4.jpg" alt="Кулер настольный с нагревом">
                         </div>
                         <h3 class="catalog-item-title">Кулер настольный<br>с нагревом</h3>
                         <p class="catalog-item-text text-def">Одной из главных особенностей этого кулера является его функция нагрева воды. Это означает, что вы сможете получать горячую воду прямо из крана, что идеально подходит для приготовления чая, кофе или супов. Благодаря высокой производительности, кулер настольный с нагревом обеспечивает быстрый и эффективный нагрев воды, позволяя вам сэкономить время и энергию.</p>
                     </li>
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_5.jpg" alt="Кулер настольный с нагревом и охлаждением">
+                            <img src="./public/img/catalog/item_5.jpg" alt="Кулер настольный с нагревом и охлаждением">
                         </div>
                         <h3 class="catalog-item-title">Кулер настольный<br>с нагревом и охлаждением</h3>
                         <p class="catalog-item-text text-def">Это идеальное решение для тех, кто ищет удобный и функциональный способ получить горячую и холодную воду в офисе или дома. С помощью этого компактного прибора вы сможете не только освежиться прохладной водой в жаркий день, но и насладиться горячим напитком в любое время.</p>
                     </li>
                     <li class="catalog-item">
                         <div class="catalog-item-img">
-                            <img src="./img/catalog/item_6.jpg" alt="Кулер напольный с нагревом и охлаждением">
+                            <img src="./public/img/catalog/item_6.jpg" alt="Кулер напольный с нагревом и охлаждением">
                         </div>
                         <h3 class="catalog-item-title">Кулер напольный<br>с нагревом и охлаждением</h3>
                         <p class="catalog-item-text text-def">Современное устройство, которое предлагает идеальное решение для тех, кто хочет насладиться свежей и освежающей водой в любое время. С его помощью вы сможете наслаждаться горячей водой для приготовления горячих напитков или приготовления пищи, а также получать прохладу в жаркие летние дни.</p>
@@ -142,7 +142,7 @@
                     <h2 class="apartments-title">Квартиры посуточно</h2>
                     <div class="apartments-number flex">
                         <a href="tel:+79086472689" class="apartments-number-img">
-                            <img src="./img/svg/phone-24p.svg" alt="+79086472689">
+                            <img src="./public/img/svg/phone-24p.svg" alt="+79086472689">
                         </a>
                         <a href="tel:+79086472689" class="apartments-number-text">+79086472689</a>
                     </div>
@@ -151,19 +151,19 @@
                 <ul class="apartments-advantages-list flex">
                     <li class="apartments-advantages-item flex">
                         <div class="apartments-advantages-item-img">
-                            <img src="./img/svg/star.svg" alt="Низкие цены">
+                            <img src="./public/img/svg/star.svg" alt="Низкие цены">
                         </div>
                         <span class="apartments-advantages-item-text">Низкие цены</span>
                     </li>
                     <li class="apartments-advantages-item flex">
                         <div class="apartments-advantages-item-img">
-                            <img src="./img/svg/star.svg" alt="Центр Иркутска">
+                            <img src="./public/img/svg/star.svg" alt="Центр Иркутска">
                         </div>
                         <span class="apartments-advantages-item-text">Центр Иркутска</span>
                     </li>
                     <li class="apartments-advantages-item flex">
                         <div class="apartments-advantages-item-img">
-                            <img src="./img/svg/star.svg" alt="Отчётные документы">
+                            <img src="./public/img/svg/star.svg" alt="Отчётные документы">
                         </div>
                         <span class="apartments-advantages-item-text">Отчётные документы</span>
                     </li>
@@ -188,7 +188,7 @@
                     <div class="footer-made-item">ЕАЭС N RU Д-RU.РА02.В.06655/23</div>
                 </div>
                 <div class="footer-made-img">
-                    <img src="./img/svg/quality_xs.svg" alt="Соответствие качества">
+                    <img src="./public/img/svg/quality_xs.svg" alt="Соответствие качества">
                 </div>
             </div>
         </div>
@@ -201,5 +201,5 @@
             </address>
         </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./public/js/main.js"></script>
 </body>
